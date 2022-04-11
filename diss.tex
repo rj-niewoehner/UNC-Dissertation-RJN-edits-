@@ -1,0 +1,41 @@
+\input{common/preamble}
+
+\begin{document}
+
+% Title page, TOC, etc.
+\input{frontmatter/pages}
+
+% Intro
+\input{frontmatter/intro}
+
+% Chapter 1
+\input{ch1}
+
+% Chapter 2
+\input{ch2}
+
+% Chapter 3
+% \input{ch3}
+
+
+\newpage
+% Appendices
+\appendix
+
+% Switch to 1" title margins for appendices
+\titlespacing{\chapter}{0in}{-.38in}{11pt}
+
+% Appendix 1
+\input{ap1}
+
+% Appendix 2
+\input{ap2}
+
+% Appendix 3
+% \input{ap3}
+
+% References
+\input{common/references}
+
+
+\end{document}
